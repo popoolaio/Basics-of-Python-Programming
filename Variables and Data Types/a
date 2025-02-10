@@ -1,0 +1,31 @@
+# Variable
+
+## Dynamic Typing:
+```Python
+x = 10          # Integer
+name = "Alice"  # String
+pi = 3.14       # Float
+is_active = True  # Boolean
+```
+
+## Reassignment:
+```Python
+x = 10      # Integer
+x = "Ten"   # Now a String
+```
+
+## Descriptive Names:
+```Python
+user_age = 25
+total_price = 100.50
+```
+
+## Naming Conventions:
+- Use descriptive names to make your code readable
+```Python
+user_age = 25
+total_price = 100.50
+```
+- Variable names must start with a letter or an underscore _, but cannot start with a number.
+- Avoid using reserved keywords (e.g., if, for, while) as variable names.
+- Use snake_case for multi-word variable names (e.g., user_name, total_amount).

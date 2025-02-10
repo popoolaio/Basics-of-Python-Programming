@@ -5,6 +5,11 @@ This repository is aimed at learning the basics of Python Programming Language
 # Table of Contents
 1. [Variable](#variable)
 2. [Data Types](#data-types)
+3. [Operators](#operators)
+4. [Expression](#Expression)
+
+
+
 # Variable
 
 ## Dynamic Typing:
@@ -94,3 +99,66 @@ coordinates = (4, 5)  # Tuple
 user = {"name": "Alice", "age": 25}  # Dictionary
 ```
 
+# Operators
+
+## Arithmetic Operators
+```Python
+a = 10
+b = 3
+print(a + b)    # Output: 13
+print(a ** b)   # Output: 1000 (10 raised to the power of 3)
+```
+
+## Comparison Operators
+```Python
+print(a > b)    # Output: True
+print(a == 10)  # Output: True
+```
+
+## Logical Operators
+```Python
+print(a > 5 and b < 5)  # Output: True
+print(not(a < 5))       # Output: True
+```
+
+## Assignment Operators
+x = 5
+x += 3
+print(x)        # Output: 8
+
+## Membership Operators
+```Python
+fruits = ["apple", "banana", "cherry"]
+print("banana" in fruits)    # Output: True
+print("grape" not in fruits) # Output: True
+```
+
+# Expression
+Example of an expression:
+```Python
+2 + 3   # This expression evaluates to 5
+a * b   # If a = 4 and b = 5, this evaluates to 20
+```
+
+## Examples of Expressions
+
+- **Arithmetic Expression:**
+```Python
+result = (4 + 5) * 2  # Evaluates to 18
+```
+
+- **Logical Expression:**
+```Python
+is_valid = (5 > 2) and (3 < 4)  # Evaluates to True
+```
+
+- **String Expression:**
+```Python
+full_name = "John" + " " + "Doe"  # Evaluates to "John Doe"
+```
+
+- **Lambda Expression:**
+```Python
+add = lambda x, y: x + y
+print(add(3, 4))  # Evaluates to 7
+```
